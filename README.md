@@ -31,6 +31,7 @@ https://user-images.githubusercontent.com/85853539/140927117-4c20037f-5de3-42cc-
 
 ## Technologies Used
      - C#
+     -SuperSimple TCP/IP
      
 ## License
 ### This app is licensed under the [MIT License](LICENSE).
