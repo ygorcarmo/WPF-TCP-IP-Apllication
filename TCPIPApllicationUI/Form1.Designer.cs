@@ -32,7 +32,7 @@ namespace TCPIPApllicationUI
             this.textIP = new System.Windows.Forms.TextBox();
             this.btnConnect = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.textInfo = new System.Windows.Forms.TextBox();
+            this.txtInfo = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.textMessage = new System.Windows.Forms.TextBox();
             this.btnSend = new System.Windows.Forms.Button();
@@ -44,6 +44,7 @@ namespace TCPIPApllicationUI
             this.textIP.Name = "textIP";
             this.textIP.Size = new System.Drawing.Size(537, 27);
             this.textIP.TabIndex = 0;
+            this.textIP.Text = "127.0.0.1:9000";
             // 
             // btnConnect
             // 
@@ -53,6 +54,7 @@ namespace TCPIPApllicationUI
             this.btnConnect.TabIndex = 1;
             this.btnConnect.Text = "Connect";
             this.btnConnect.UseVisualStyleBackColor = true;
+            this.btnConnect.Click += new System.EventHandler(this.btnConnect_Click);
             // 
             // label1
             // 
@@ -63,15 +65,15 @@ namespace TCPIPApllicationUI
             this.label1.TabIndex = 2;
             this.label1.Text = "Server";
             // 
-            // textInfo
+            // txtInfo
             // 
-            this.textInfo.Location = new System.Drawing.Point(90, 77);
-            this.textInfo.Multiline = true;
-            this.textInfo.Name = "textInfo";
-            this.textInfo.ReadOnly = true;
-            this.textInfo.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textInfo.Size = new System.Drawing.Size(537, 208);
-            this.textInfo.TabIndex = 3;
+            this.txtInfo.Location = new System.Drawing.Point(90, 77);
+            this.txtInfo.Multiline = true;
+            this.txtInfo.Name = "txtInfo";
+            this.txtInfo.ReadOnly = true;
+            this.txtInfo.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.txtInfo.Size = new System.Drawing.Size(537, 208);
+            this.txtInfo.TabIndex = 3;
             // 
             // label2
             // 
@@ -97,6 +99,7 @@ namespace TCPIPApllicationUI
             this.btnSend.TabIndex = 6;
             this.btnSend.Text = "Send";
             this.btnSend.UseVisualStyleBackColor = true;
+            this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
             // Form1
             // 
@@ -106,13 +109,14 @@ namespace TCPIPApllicationUI
             this.Controls.Add(this.btnSend);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textMessage);
-            this.Controls.Add(this.textInfo);
+            this.Controls.Add(this.txtInfo);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnConnect);
             this.Controls.Add(this.textIP);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TCP/IP Client";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -123,7 +127,7 @@ namespace TCPIPApllicationUI
         private System.Windows.Forms.TextBox textIP;
         private System.Windows.Forms.Button btnConnect;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textInfo;
+        private System.Windows.Forms.TextBox txtInfo;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textMessage;
         private System.Windows.Forms.Button btnSend;

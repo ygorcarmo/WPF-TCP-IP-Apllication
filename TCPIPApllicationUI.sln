@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPIPApllicationUI", "TCPIPApllicationUI\TCPIPApllicationUI.csproj", "{A2ABF18A-94DE-4E93-98F2-44C0586B90AE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPServer", "TCPServer\TCPServer.csproj", "{DAC2A428-832A-4CFC-BF6B-6FA252A55999}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A2ABF18A-94DE-4E93-98F2-44C0586B90AE} = {A2ABF18A-94DE-4E93-98F2-44C0586B90AE}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

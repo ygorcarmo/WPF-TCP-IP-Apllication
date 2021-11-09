@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tIu83ONuU9m+Y4EE48fbhZuIfoErfGGbEZPqIHMafS5JNm32TImFHrq+dkN09dfe4imXKzN3kM5eF3cYsklDWA==",
+  "dgSpecHash": "cg2MFRTvyOrCThKTf1g5pqYwB5nWB6jg62BMMlak9YJb/EMKTkayTo4n2MvA1ON1xVcjtdV240APnivQohDolQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ygorc\\source\\repos\\TCPIPApllicationUI\\TCPServer\\TCPServer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ygorc\\.nuget\\packages\\supersimpletcp\\2.4.1.1\\supersimpletcp.2.4.1.1.nupkg.sha512"
+  ],
   "logs": []
 }

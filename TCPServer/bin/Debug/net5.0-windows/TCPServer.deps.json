@@ -6,6 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
+      "TCPServer/1.0.0": {
+        "dependencies": {
+          "SuperSimpleTcp": "2.4.1.1"
+        },
+        "runtime": {
+          "TCPServer.dll": {}
+        }
+      },
       "SuperSimpleTcp/2.4.1.1": {
         "runtime": {
           "lib/net5.0/SimpleTcp.dll": {
@@ -17,6 +25,11 @@
     }
   },
   "libraries": {
+    "TCPServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "SuperSimpleTcp/2.4.1.1": {
       "type": "package",
       "serviceable": true,
