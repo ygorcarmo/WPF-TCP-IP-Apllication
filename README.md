@@ -2,7 +2,7 @@
 # TCP/IP Console App
 
 ## Description
-A simple console application that sends and receives data.
+A simple WAF appllication that enables data exchange between client and server.
   
 ## Table of Contents
  * [Installation](#installation)
