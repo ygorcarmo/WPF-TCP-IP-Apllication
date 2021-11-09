@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPIPApllicationUI", "TCPIPApllicationUI\TCPIPApllicationUI.csproj", "{A2ABF18A-94DE-4E93-98F2-44C0586B90AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPServer", "TCPServer\TCPServer.csproj", "{DAC2A428-832A-4CFC-BF6B-6FA252A55999}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2ABF18A-94DE-4E93-98F2-44C0586B90AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2ABF18A-94DE-4E93-98F2-44C0586B90AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2ABF18A-94DE-4E93-98F2-44C0586B90AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2ABF18A-94DE-4E93-98F2-44C0586B90AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC2A428-832A-4CFC-BF6B-6FA252A55999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC2A428-832A-4CFC-BF6B-6FA252A55999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC2A428-832A-4CFC-BF6B-6FA252A55999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC2A428-832A-4CFC-BF6B-6FA252A55999}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0043B740-BCEF-4870-9660-3B1F77D3E6FE}
+	EndGlobalSection
+EndGlobal

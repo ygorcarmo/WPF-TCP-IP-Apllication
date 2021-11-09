@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "H+cXOBWXBatWbUva3wBtUaJRcNCpYN/NJ4NEfuxg1Ifso+oxPWh77Dou+TImOKVYyIAzbp6HIEqWgOyTGGATww==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ygorc\\source\\repos\\TCPIPApllicationUI\\TCPIPApllicationUI\\TCPIPApllicationUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ygorc\\.nuget\\packages\\supersimpletcp\\2.4.1.1\\supersimpletcp.2.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
