@@ -1,8 +1,8 @@
-# WPF-TCP-IP-Apllication
+# WPF-TCP-IP-Application
 # TCP/IP Console App
 
 ## Description
-A simple WAF appllication that enables data exchange between client and server.
+A simple WAF application that enables data exchange between client and server.
   
 ## Table of Contents
  * [Installation](#installation)
